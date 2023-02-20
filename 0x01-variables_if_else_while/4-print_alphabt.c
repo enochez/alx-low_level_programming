@@ -1,17 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
-*main - program entry point
+* main - Entry point to program that prints alphabet exept q and e
 *
-*Return: return value Always (0)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int x;
+int i;
 
-for (x = 0; x < 52; x++)
+for (i = 97; i < 123; i++)
 {
-putchar(alph[x]);
+if (i != 101 && i != 113)
+{
+putchar(i);
+}
 }
 putchar('\n');
 return (0);
