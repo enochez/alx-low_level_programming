@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_number - prints an integer
  *
- * Return: Always 0.
+ * @n: integer
  */
-
-int main(void)
+void print_number(int n)
 {
 	unsigned int n1;
 
