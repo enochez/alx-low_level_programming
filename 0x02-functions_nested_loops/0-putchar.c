@@ -9,11 +9,11 @@
 int main(void)
 {
 	char print[] = "_putchar";
-	int a;
+	int i;
 
-	for (a = 0; print[a] != '\0'; a++)
+	for (i = 0; print[i] != '\0'; i++)
 	{
-		_putchar(print[a]);
+		_putchar(print[i]);
 	}
 
 	_putchar('\n');
