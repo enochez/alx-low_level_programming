@@ -1,1 +1,1 @@
-Pointers_arrays_and_strings_as_used_in_c
+Pointers arrays and strings as used in c
