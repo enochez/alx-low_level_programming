@@ -3,15 +3,15 @@
 /**
  *_isalpha - checks for alphabetic characters.
  *
- *@e: an ASCII character.
+ *@c: an ASCII character.
  *
  *Return: 1 if a character of the alphabet. 0 if else.
  */
 
-int _isalpha(int e)
+int _isalpha(int c)
 {
 
-	if ((e >= 65 && e <= 90) || (e >= 97 && e <= 122))
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 		return (1);
 	}
