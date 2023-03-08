@@ -1,14 +1,17 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- *print_string - prints string followed by newline
- *@str: pointer to the string to be printed
+ * print_string - prints a string followed by a new line
+ * @str: the string to be printed
  *
- *return: void
+ * Return: void
  */
 void print_string(char *str)
 {
-	if (str == NULL)
-		return;
-	printf ("%s\n", str);
+    if (str != NULL)
+    {
+        printf("%s\n", str);
+    }
+    return (0);
 }
