@@ -2,9 +2,8 @@
 
 /**
  * A function that prints a string followed by a new line.
- *
- * @s: string that is to be printed
- *
+ * @s: string that is to be printed.
+ *Return: No return
  */
 void _puts_recursion(char *s);
 {
